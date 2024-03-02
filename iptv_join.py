@@ -36,6 +36,7 @@ def get_group_name(current_name):
              "广东台", "海南台", "四川台", "贵州台", "云南台", "陕西台", "甘肃台", "青海台", "台湾台", "内蒙古台", "广西台", "西藏台", "宁夏台", "新疆台", "北京市台",
              "天津市台", "上海市台", "重庆市台", "香港台", "澳门台"]
     if local.__contains__(current_name): return "地方特色"
+    return current_name
 
 
 def get_tv_id(tv_id):
