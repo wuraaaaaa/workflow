@@ -58,7 +58,7 @@ def download_m3u8(url):
 def get_meroser_source():
     pattern = re.compile(
         r'#EXTINF:-1 tvg-id="([^"]+)" tvg-name="([^"]+)" tvg-logo="([^"]+)" group-title="([^"]+)",([^"]+)')
-    url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u"
+    url = "https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u"
 
     lines = download_m3u8(url)
     if lines is not None:
@@ -77,7 +77,7 @@ def get_meroser_source():
 def get_joevess_source():
     pattern = re.compile(
         r'#EXTINF:-1 group-title="([^"]+)" tvg-id="([^"]+)" tvg-logo="([^"]+)",([^"]+)')
-    url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u8"
+    url = "https://raw.githubusercontent.com/joevess/IPTV/main/sources/iptv_sources.m3u8"
     lines = download_m3u8(url)
     if lines is not None:
         for line in lines:
