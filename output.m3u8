@@ -59,7 +59,7 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001335/index.m3
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001344/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 group-title="卫视台" tvg-id="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Anhui.png",安徽卫视
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001346/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 group-title="卫视台" tvg-id="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Chongqing.png",重庆卫视
+#EXTINF:-1 group-title="卫视台" tvg-id="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/Meroser/IPTV@main/TVlogo/Chongqing.png",重庆卫视
 http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/ott.mobaibox.com/PLTV/4/224/3221228133/index.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="东南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Dongnan.png",东南卫视
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225950/index.m3u8
