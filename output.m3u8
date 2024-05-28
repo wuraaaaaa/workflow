@@ -69,6 +69,10 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-id="优漫卡通" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/优漫卡通",优漫卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
+#EXTINF:-1 group-title="数字高清" tvg-id="4K60PSDRH264AAC测试" tvg-logo="https://epg.112114.xyz/logo/4K60PSDRHAAC测试.png",4K60PSDR-H264-AAC测试
+https://cdn.jsdelivr.net/gh/youshandefeiyang/testvideo/sdr4kvideo/playad.m3u8
+#EXTINF:-1 group-title="数字高清" tvg-id="4K60PHLGHEVCEAC3测试" tvg-logo="https://epg.112114.xyz/logo/4K60PHLGEAC3测试.png",4K60PHLG-HEVC-EAC3测试
+https://cdn.jsdelivr.net/gh/youshandefeiyang/testvideo/hlg4kvideo/playad.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-id="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png",CHC动作电影
 https://live.goodiptv.club/api/sxg.php?id=wqCHCdzdyH265_4000
 #EXTINF:-1 group-title="数字高清" tvg-id="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png",CHC高清电影
