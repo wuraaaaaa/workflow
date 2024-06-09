@@ -110,7 +110,7 @@ def test_play_url(url):
         print("result: False")
         return False
 
-def download_m3u8(url, use_proxy = True):
+def download_m3u8(url, use_proxy = False):
     link = url
     if use_proxy:
         link = "https://mirror.ghproxy.com/"+url
