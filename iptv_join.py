@@ -3,8 +3,8 @@ import requests
 import signal
 import time
 
-# 开启 连通性测试
-test_connect = True
+# 开启 连通性测试 有bug 会导致变成下载- -
+test_connect = False
 
 
 class IPTV:
