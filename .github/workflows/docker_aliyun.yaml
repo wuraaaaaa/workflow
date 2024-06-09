@@ -5,6 +5,19 @@ on:
   #  # 每五天拉取一次
   #  - cron: '0 3 */5 * *'
   workflow_dispatch:
+    inputs:
+      runCustomer:
+        description: 'use customer image?'
+        required: true
+        type: choice
+        default: 'False'
+        options:
+          - False
+          - True
+      dockerImage:
+        description: 'input customer image'
+        required: false
+        type: string
   push:
     paths:
       - 'docker_images.txt'
@@ -29,7 +42,9 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
+
       - name: push mirror to aliyun
+      - if: ${{ inputs.runCustomer != 'True' }}
         run: |
           docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
           while IFS= read -r line; do
@@ -47,3 +62,34 @@ jobs:
             echo "docker push ***aliyun***/$image_name_tag"
             docker push $new_image
           done < docker_images.txt
+
+      - name: push mirror to aliyun by customer
+      - if: ${{ inputs.runCustomer == 'True' }}
+        run: |
+          if grep -qF "${{ inputs.dockerImage }}" docker_images.txt; then  
+            echo "docker_images.txt has ${{ inputs.dockerImage }}"
+            exit 0
+          else  
+            echo "docker_images.txt has no ${{ inputs.dockerImage }}, start to add in txt"
+            echo "${{ inputs.dockerImage }}" >> docker_images.txt
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "add ${{ inputs.dockerImage }} to docker_images.txt  - $(date +"%Y-%m-%d %H:%M:%S")"
+            git push
+          fi
+          
+          
+          docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+          echo "docker pull ${{ inputs.dockerImage }} "
+          docker pull ${{ inputs.dockerImage }}
+          # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
+          image=$(echo "${{ inputs.dockerImage }}" | awk '{print $NF}')
+          # 获取 镜像名:版本号  例如nginx:1.25.3
+          image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
+          new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
+          echo "docker tag $image to ***aliyun***/$image_name_tag"
+          docker tag $image $new_image
+          echo "docker push ***aliyun***/$image_name_tag"
+          docker push $new_image
+          
