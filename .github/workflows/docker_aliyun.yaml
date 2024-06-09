@@ -1,12 +1,13 @@
 name: Docker_aliyun
 
 on:
-  schedule:
-    # 每五天拉取一次
-    - cron: '0 3 */5 * *'
+  #schedule:
+  #  # 每五天拉取一次
+  #  - cron: '0 3 */5 * *'
   workflow_dispatch:
-  #push:
-  #  branches: [ main ]
+  push:
+    paths:
+      - 'docker_images.txt'
 
 
 env:
@@ -41,8 +42,8 @@ jobs:
             # 获取 镜像名:版本号  例如nginx:1.25.3
             image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
-            echo "docker tag $image to $new_image"
+            echo "docker tag $image to ***aliyun***/$image_name_tag"
             docker tag $image $new_image
-            echo "docker push $new_image"
+            echo "docker push ***aliyun***/$image_name_tag"
             docker push $new_image
           done < docker_images.txt
