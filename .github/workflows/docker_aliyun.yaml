@@ -28,21 +28,21 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-    - name: push mirror to aliyun
-      run: |
-        docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
-        while IFS= read -r line; do
-          # 跳过空行
-          [[ -z "$line" ]] && continue
-          echo "docker pull $line"
-          docker pull $line
-          # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
-          image=$(echo "$line" | awk '{print $NF}')
-          # 获取 镜像名:版本号  例如nginx:1.25.3
-          image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
-          new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
-          echo "docker tag $image to $new_image"
-          docker tag $image $new_image
-          echo "docker push $new_image"
-          docker push $new_image
-        done < docker_images.txt
+      - name: push mirror to aliyun
+        run: |
+          docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+          while IFS= read -r line; do
+            # 跳过空行
+            [[ -z "$line" ]] && continue
+            echo "docker pull $line"
+            docker pull $line
+            # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
+            image=$(echo "$line" | awk '{print $NF}')
+            # 获取 镜像名:版本号  例如nginx:1.25.3
+            image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
+            new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
+            echo "docker tag $image to $new_image"
+            docker tag $image $new_image
+            echo "docker push $new_image"
+            docker push $new_image
+          done < docker_images.txt
