@@ -44,8 +44,9 @@ jobs:
 
 
       - name: push mirror to aliyun
-      - if: ${{ inputs.runCustomer != 'true' }}
+        if: ${{ inputs.runCustomer != 'true' }}
         run: |
+          echo "run push mirror to aliyun"
           docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
           while IFS= read -r line; do
             # 跳过空行
@@ -64,19 +65,20 @@ jobs:
           done < docker_images.txt
 
       - name: push mirror to aliyun by customer
-      - if: ${{ inputs.runCustomer == 'true' }}
+        if: ${{ inputs.runCustomer == 'true' }}
         run: |
+          echo "run push mirror to aliyun by customer : ${{ inputs.dockerImage }}"
           if grep -qF "${{ inputs.dockerImage }}" docker_images.txt; then  
             echo "docker_images.txt has ${{ inputs.dockerImage }}"
             exit 0
           else  
-            echo "docker_images.txt has no ${{ inputs.dockerImage }}, start to add in txt"
-            echo "${{ inputs.dockerImage }}" >> docker_images.txt
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "add ${{ inputs.dockerImage }} to docker_images.txt  - $(date +"%Y-%m-%d %H:%M:%S")"
-            git push
+            echo "docker_images.txt has no ${{ inputs.dockerImage }}"
+            #echo "${{ inputs.dockerImage }}" >> docker_images.txt
+            #git config user.name github-actions
+            #git config user.email github-actions@github.com
+            #git add .
+            #git commit -m "add ${{ inputs.dockerImage }} to docker_images.txt  - $(date +"%Y-%m-%d %H:%M:%S")"
+            #git push
           fi
           
           
