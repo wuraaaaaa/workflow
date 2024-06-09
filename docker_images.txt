@@ -1,0 +1,8 @@
+alpine
+mysql:8.0.33
+postgres:14.7
+redis:latest
+cym1102/nginxwebui:latest
+flaresolverr/flaresolverr:latest
+homeassistant/home-assistant:latest
+nyanmisaka/jellyfin:latest
