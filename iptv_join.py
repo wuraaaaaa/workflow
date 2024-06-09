@@ -1,5 +1,10 @@
 import re
 import requests
+import signal
+import time
+
+# 开启 连通性测试
+test_connect = True
 
 
 class IPTV:
@@ -23,6 +28,38 @@ live_infos = []
 
 # 去重
 add_url = []
+
+
+def timeout_handler(signal, frame):
+    # 引发异常
+    raise TimeoutError("超时!")
+
+def request(url, timeout=2, use_signal = False, only_test = False):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537',
+        'Range': 'bytes=0-1023'  # 如果需要的话，可以限制请求的范围，但这不是必要的
+    }
+    if not use_signal:
+        try:
+            if only_test:
+                result = requests.get(url, verify=False, stream=True, timeout=(timeout,timeout))
+                return result
+            result = requests.get(url, verify=False, timeout=(timeout,timeout))
+            return result
+        except Exception as e:
+            print(f"request error {e}")
+            return None
+
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.alarm(timeout)
+    try:
+        result = requests.get(url, verify=False, timeout=timeout)
+        return result
+    except Exception as e:
+        print(f"request error {e}")
+        return None
+    finally:
+        signal.alarm(0)
 
 def is_add(url):
     if add_url.__contains__(url):
@@ -56,15 +93,40 @@ def contains(list, str):
 def get_tv_id(tv_id):
     return tv_id.replace("-", "")
 
+def test_play_url(url):
+    # 不需要测试连通性 直接返回
+    if not test_connect:
+        return True
+    print(f"test : {url}")
+    try:
+        context = request(url, timeout=2, only_test= True)
+        if context.status_code == 200:
+            print("result: True")
+            return True
+        else:
+            print("result: False")
+            return False
+    except Exception as e:
+        print("result: False")
+        return False
 
-def download_m3u8(url):
-    context = requests.get(url, verify=False, timeout=30)
-    if context is not None and context.status_code == 200:
-        lines = context.text.split('\n')
-        # print(lines)
-        return lines
-    else:
+def download_m3u8(url, use_proxy = True):
+    link = url
+    if use_proxy:
+        link = "https://mirror.ghproxy.com/"+url
+    try:
+        print(f"start -> download from : {link}")
+        context = request(link, timeout=5)
+        if context is not None and context.status_code == 200:
+            lines = context.text.split('\n')
+            # print(lines)
+            return lines
+        else:
+            return None
+    except Exception as e:
+        print(f"error : {e}")
         return None
+
 
 # https://github.com/Meroser/IPTV
 def get_meroser_source():
@@ -81,7 +143,7 @@ def get_meroser_source():
                     tvg_id, tvg_name, tvg_logo, group_title, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(group_title), get_tv_id(tvg_name), tvg_logo, name, url)
                     live_infos.append(live_info)
@@ -101,7 +163,7 @@ def get_YueChan_source():
                     tvg_id, tvg_name, tvg_logo, group_title, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(group_title), get_tv_id(tvg_name), tvg_logo, name, url)
                     live_infos.append(live_info)
@@ -121,7 +183,7 @@ def get_Ftindy_IPV6_source():
                     tvg_logo,tvg_id,tvg_name, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(tvg_name), get_tv_id(tvg_name), tvg_logo, name, url)
                     live_infos.append(live_info)
@@ -141,7 +203,7 @@ def get_Ftindy_bestv_source():
                     tvg_id,tvg_name,tvg_logo,group_title, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(tvg_name), get_tv_id(tvg_name), tvg_logo, name, url)
                     live_infos.append(live_info)
@@ -161,7 +223,7 @@ def get_Ftindy_sxg_source():
                     tvg_id,tvg_name,tvg_logo,group_title, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(tvg_name), get_tv_id(tvg_name), tvg_logo, name, url)
                     live_infos.append(live_info)
@@ -180,13 +242,15 @@ def get_joevess_source():
                     group_title, tvg_id, tvg_logo, name = match.groups()
                     # 下一行就是url
                     url = lines[lines.index(line) + 1].strip()
-                    if is_add(url):
+                    if is_add(url) or not test_play_url(url):
                         continue
                     live_info = IPTV(get_group_name(group_title), get_tv_id(tvg_id), tvg_logo, name, url)
                     live_infos.append(live_info)
 
 
 if __name__ == '__main__':
+
+
     #get_meroser_source()
     get_joevess_source()
     get_YueChan_source()
@@ -196,6 +260,6 @@ if __name__ == '__main__':
     with open('output.m3u8', 'w', encoding='utf-8') as f:
         print("#EXTM3U", file=f)
         # 使用 sorted 函数和 lambda 表达式按照 group_title 排序
-        sorted_live_infos = sorted(live_infos, key=lambda IPTV: IPTV.group_title, reverse=True)
+        sorted_live_infos = sorted(live_infos, key=lambda IPTV: IPTV.group_title + IPTV.tvg_id, reverse=True)
         for i in sorted_live_infos:
             print(i, file=f)
