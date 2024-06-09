@@ -10,10 +10,10 @@ on:
         description: 'use customer image?'
         required: true
         type: choice
-        default: 'False'
+        default: 'false'
         options:
-          - False
-          - True
+          - false
+          - true
       dockerImage:
         description: 'input customer image'
         required: false
@@ -44,7 +44,7 @@ jobs:
 
 
       - name: push mirror to aliyun
-      - if: ${{ inputs.runCustomer != 'True' }}
+      - if: ${{ inputs.runCustomer != 'true' }}
         run: |
           docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
           while IFS= read -r line; do
@@ -64,7 +64,7 @@ jobs:
           done < docker_images.txt
 
       - name: push mirror to aliyun by customer
-      - if: ${{ inputs.runCustomer == 'True' }}
+      - if: ${{ inputs.runCustomer == 'true' }}
         run: |
           if grep -qF "${{ inputs.dockerImage }}" docker_images.txt; then  
             echo "docker_images.txt has ${{ inputs.dockerImage }}"
