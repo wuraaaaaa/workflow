@@ -122,7 +122,7 @@ http://116.162.6.192/4403-txt.otvstream.otvcloud.com/otv/skcc/live/channel4/2300
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K超高清" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png",CCTV-4K超高清
 http://113.96.179.241/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png",CCTV-4K
-http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
+http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png",CCTV-4K
 https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png",CCTV-4K 超高清
@@ -1391,21 +1391,21 @@ https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 https://live.goodiptv.club/api/bestv.php?id=shss8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="生活时尚" tvg-logo="https://epg.112114.xyz/logo/生活时尚.png",生活时尚
 https://live.goodiptv.club/api/sxg.php?id=shssH265_4000
-#EXTINF:-1 group-title="其他" tvg-id="湖南都市" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南都市.png",湖南都市
+#EXTINF:-1 group-title="其他" tvg-id="湖南都市" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南都市.png",湖南都市
 http://222.241.154.37:9901/tsfile/live/23021_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南经视" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南经视.png",湖南经视
+#EXTINF:-1 group-title="其他" tvg-id="湖南经视" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南经视.png",湖南经视
 http://222.241.154.37:9901/tsfile/live/23020_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南电视剧" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南电视剧.png",湖南视剧
+#EXTINF:-1 group-title="其他" tvg-id="湖南电视剧" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南电视剧.png",湖南视剧
 http://222.241.154.37:9901/tsfile/live/23026_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南电影" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南电影.png",湖南电影
+#EXTINF:-1 group-title="其他" tvg-id="湖南电影" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南电影.png",湖南电影
 http://222.241.154.37:9901/tsfile/live/23025_1.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="湖南爱晚" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南爱晚.png",湖南爱晚
 http://222.241.154.37:9901/tsfile/live/23022_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南教育台" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南教育台.png",湖南教育
+#EXTINF:-1 group-title="其他" tvg-id="湖南教育台" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南教育台.png",湖南教育
 http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南娱乐" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南娱乐.png",湖南娱乐
+#EXTINF:-1 group-title="其他" tvg-id="湖南娱乐" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南娱乐.png",湖南娱乐
 http://222.241.154.37:9901/tsfile/live/23023_1.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="湖南国际" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南国际.png",湖南国际
+#EXTINF:-1 group-title="其他" tvg-id="湖南国际" tvg-logo="https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖南国际.png",湖南国际
 http://222.241.154.37:9901/tsfile/live/23024_1.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="湖北综合" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/湖北综合.png",湖北综合
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072216f7da/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLx3R3LdIBdA5q61lut1LwZcw4SC2tJubc%2Bq5t%2F61jvWCtjrJL0x%2BHncPgdmcbBW9I
