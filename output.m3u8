@@ -65,10 +65,10 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
 #EXTINF:-1 group-title="数字高清" tvg-id="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png",CHC动作电影
 https://live.goodiptv.club/api/sxg.php?id=wqCHCdzdyH265_4000
-#EXTINF:-1 group-title="数字高清" tvg-id="4K60PSDRH264AAC测试" tvg-logo="https://epg.112114.xyz/logo/4K60PSDRHAAC测试.png",4K60PSDR-H264-AAC测试
-https://cdn.jsdelivr.net/gh/youshandefeiyang/testvideo/sdr4kvideo/playad.m3u8
-#EXTINF:-1 group-title="数字高清" tvg-id="4K60PHLGHEVCEAC3测试" tvg-logo="https://epg.112114.xyz/logo/4K60PHLGEAC3测试.png",4K60PHLG-HEVC-EAC3测试
-https://cdn.jsdelivr.net/gh/youshandefeiyang/testvideo/hlg4kvideo/playad.m3u8
+#EXTINF:-1 group-title="数字高清" tvg-id="4K60PSDRH264AAC测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/tg.jpg",4K60PSDR-H264-AAC测试
+https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/sdr4kvideo/index.m3u8
+#EXTINF:-1 group-title="数字高清" tvg-id="4K60PHLGHEVCEAC3测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/tg.jpg",4K60PHLG-HEVC-EAC3测试
+https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/hlg4kvideo/index.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV9纪录" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png",CCTV-9纪录
 https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png",CCTV-9
