@@ -6,3 +6,4 @@ cym1102/nginxwebui:latest
 flaresolverr/flaresolverr:latest
 homeassistant/home-assistant:latest
 nyanmisaka/jellyfin:latest
+cym1102/nginxwebui:latest
