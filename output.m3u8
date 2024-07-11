@@ -19,6 +19,8 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638078a346161/index.m
 https://live.goodiptv.club/api/sxg.php?id=emdygqH265_4000
 #EXTINF:-1 group-title="数字高清" tvg-id="嘉佳卡通" tvg-logo="https://epg.112114.xyz/logo/嘉佳卡通.png",嘉佳卡通
 https://live.goodiptv.club/api/sxg.php?id=jjkt_2000
+#EXTINF:-1 group-title="数字高清" tvg-id="南国都市" tvg-logo="https://live.fanmingming.com/tv/南国都市.png",南国都市
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
 #EXTINF:-1 group-title="数字高清" tvg-id="优漫卡通" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/优漫卡通",优漫卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-id="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png",乐游频道
@@ -57,13 +59,13 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-id="newtv东北热剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV东北热剧.png",东北热剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 group-title="数字高清" tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC影迷电影.png",CHC影迷电影
+#EXTINF:-1 group-title="数字高清" tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC影迷电影.png",影迷电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380764b172c9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNS8qWmEGeaUedzcFVVumqf9cm8lJoOcrIZueLbqOJTuoPV%2FwBk6CoHYGFV14SkLW04
 #EXTINF:-1 group-title="数字高清" tvg-id="CHC高清电影" tvg-logo="https://epg.112114.xyz/logo/CHC高清电影.png",CHC高清电影
 https://live.goodiptv.club/api/sxg.php?id=lnwsCHC-HDH265_4000
-#EXTINF:-1 group-title="数字高清" tvg-id="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC2.png",CHC家庭影院
+#EXTINF:-1 group-title="数字高清" tvg-id="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC2.png",家庭影院
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNRxu2SqX2RKsLT0S7AyQ8XopIVrD6IJGxdajeuKy4iZqZ4tkZuiEpwSRPszF6PIvg4
-#EXTINF:-1 group-title="数字高清" tvg-id="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png",CHC动作电影
+#EXTINF:-1 group-title="数字高清" tvg-id="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/CHC3.png",动作电影
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380763222d00/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTrwI%2B%2BngB0lPRofcD8hTNSXQZMUEnZPBI3Y%2BI8ABE4PJC%2B6OvlZZw5ubC%2FbrIdxFJJY1CcAGU%2BYDDQV9oJ%2FVqQ
 #EXTINF:-1 group-title="数字高清" tvg-id="CHC动作电影" tvg-logo="https://epg.112114.xyz/logo/CHC动作电影.png",CHC动作电影
 https://live.goodiptv.club/api/sxg.php?id=wqCHCdzdyH265_4000
@@ -1025,6 +1027,8 @@ https://tv.vtibet.cn/live/vuXz3cg3TmRUYg.m3u8?secret=b687f7fb9bc4d5c44a0ef2dbca6
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="西藏卫视" tvg-logo="https://epg.112114.xyz/logo/西藏卫视.png",西藏卫视
 https://live.goodiptv.club/api/sxg.php?id=xzwsH264_2000
+#EXTINF:-1 group-title="卫视台" tvg-id="第一卫视" tvg-logo="https://live.fanmingming.com/tv/第一卫视.png",第一卫视
+http://play2.one-tv.com/live/onetv.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png",甘肃卫视
 http://jxcbn.ws-cdn.gitv.tv/hls/GSWS/index.m3u8?gMac=unknown&livodToken=171a8342304b3c81ad3c96545782987d838c6b9fb512cc6905270159a52113c2_1720508692_604800&fromCDN=ws
 #EXTINF:-1 group-title="卫视台" tvg-id="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png",甘肃卫视
@@ -1267,6 +1271,8 @@ https://live.goodiptv.club/api/bestv.php?id=dnwshd8m/8000000
 https://live.goodiptv.club/api/sxg.php?id=dnwsfjwsH265_4000
 #EXTINF:-1 group-title="卫视台" tvg-id="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png",三沙卫视
 https://live2.hnntv.cn/srs/tv/ssws.m3u8?_upt=0c3d0fde1720514105
+#EXTINF:-1 group-title="其他" tvg-id="龙江联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/龙江联通.png",龙江联通
+rtp://239.3.1.133:8016
 #EXTINF:-1 group-title="其他" tvg-id="黑龙江都市" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/heilongjiang/Heilongjiang4.png",龙江都市
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="黑龙江文体" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/heilongjiang/Heilongjiang2.png",龙江文体
@@ -1289,16 +1295,26 @@ https://live.goodiptv.club/api/sxg.php?id=fssh_4000
 https://live.goodiptv.club/api/bestv.php?id=taocihd/8000000
 #EXTINF:-1 group-title="其他" tvg-id="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png",金鹰纪实
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN4766929BESTVSMGSMG/index.m3u8?m3u8_level=2
+#EXTINF:-1 group-title="其他" tvg-id="金鹰纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/金鹰纪实.png",金鹰纪实
+rtp://239.3.1.58:8156
 #EXTINF:-1 group-title="其他" tvg-id="金鹰纪实" tvg-logo="https://epg.112114.xyz/logo/金鹰纪实.png",金鹰纪实 8M
 https://live.goodiptv.club/api/bestv.php?id=jyjs8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="金鹰纪实" tvg-logo="https://epg.112114.xyz/logo/金鹰纪实.png",金鹰纪实
 https://live.goodiptv.club/api/sxg.php?id=jyjsHDH265_4000
 #EXTINF:-1 group-title="其他" tvg-id="金鹰卡通" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/TELEV/Grey/LOGO/金鹰卡通.png",金鹰卡通
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000057BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF/2bWjKgahUTWDyIgRkFJBAHMhA2ayG0T0ZQXwaiVktPr6ILPKXqwOw2VoxnxHvBSRSzCCC3szSwIgrD0rUpRXeaqChwLXCf0
+#EXTINF:-1 group-title="其他" tvg-id="重庆联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/重庆联通.png",重庆联通
+rtp://239.3.1.122:8160
 #EXTINF:-1 group-title="其他" tvg-id="都市剧场" tvg-logo="https://epg.112114.xyz/logo/都市剧场.png",都市剧场 8M
 https://live.goodiptv.club/api/bestv.php?id=dsjc8m/8000000
+#EXTINF:-1 group-title="其他" tvg-id="辽宁联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/辽宁联通.png",辽宁联通
+rtp://239.3.1.210:8056
+#EXTINF:-1 group-title="其他" tvg-id="贵州联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/贵州联通.png",贵州联通
+rtp://239.3.1.149:8076
 #EXTINF:-1 group-title="其他" tvg-id="财富天下" tvg-logo="https://epg.112114.xyz/logo/财富天下.png",江苏财富天下
 https://live.goodiptv.club/api/sxg.php?id=cftx_4000
+#EXTINF:-1 group-title="其他" tvg-id="茶频道" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/茶友频道.png",茶友频道
+rtp://239.3.1.165:8001
 #EXTINF:-1 group-title="其他" tvg-id="茶" tvg-logo="https://epg.112114.xyz/logo/茶.png",茶频道 8M
 https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="老故事" tvg-logo="https://epg.112114.xyz/logo/老故事.png",中央新影-老故事
@@ -1327,6 +1343,8 @@ http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000327/index.m3u8?
 http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000325/index.m3u8?
 #EXTINF:-1 group-title="其他" tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png",湖南都市
 http://222.241.154.37:9901/tsfile/live/23021_1.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="湖南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/湖南联通.png",湖南联通
+rtp://239.3.1.132:8012
 #EXTINF:-1 group-title="其他" tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png",湖南经视
 http://222.241.154.37:9901/tsfile/live/23020_1.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="湖南电视剧" tvg-logo="https://live.fanmingming.com/tv/湖南电视剧.png",湖南视剧
@@ -1341,6 +1359,8 @@ http://222.241.154.37:9901/tsfile/live/23027_1.m3u8
 http://222.241.154.37:9901/tsfile/live/23023_1.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png",湖南国际
 http://222.241.154.37:9901/tsfile/live/23024_1.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="湖北联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/湖北联通.png",湖北联通
+rtp://239.3.1.138:8044
 #EXTINF:-1 group-title="其他" tvg-id="湖北综合" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/hubei/Hubei1.png",湖北综合
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072216f7da/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNLx3R3LdIBdA5q61lut1LwZcw4SC2tJubc%2Bq5t%2F61jvWCtjrJL0x%2BHncPgdmcbBW9I
 #EXTINF:-1 group-title="其他" tvg-id="湖北经视" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/hubei/Hubei6.png",湖北经视
@@ -1357,6 +1377,8 @@ http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638072463c333/index.m
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6380726d0ee3b/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUUAdKgLqNB5aOAUhcp5CeNKgjpyhD%2FJd6SZjkcHAKXbsjwotAY57dianC4%2ByY7artm7J7F4GFO6G99D0bYMJRxI
 #EXTINF:-1 group-title="其他" tvg-id="游戏风云" tvg-logo="https://epg.112114.xyz/logo/游戏风云.png",游戏风云 8M
 https://live.goodiptv.club/api/bestv.php?id=yxfy8m/8000000
+#EXTINF:-1 group-title="其他" tvg-id="深圳联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/深圳联通.png",深圳联通
+rtp://239.3.1.134:8020
 #EXTINF:-1 group-title="其他" tvg-id="海南自贸" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/hainan/Hainan6.png",海南自贸
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS
 #EXTINF:-1 group-title="其他" tvg-id="海南新闻" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/hainan/Hainan2.png",海南新闻
@@ -1369,6 +1391,8 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000323/ind
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000382/index.m3u8?IAS
 #EXTINF:-1 group-title="其他" tvg-id="浙江钱江都市" tvg-logo="https://live.fanmingming.com/tv/钱江都市.png",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="浙江联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/浙江联通.png",浙江联通
+rtp://239.3.1.137:8036
 #EXTINF:-1 group-title="其他" tvg-id="浙江经视" tvg-logo="https://live.fanmingming.com/tv/浙江经济生活.png",浙江经济
 https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="浙江民生休闲" tvg-logo="https://live.fanmingming.com/tv/浙江民生休闲.png",浙江民生
@@ -1381,6 +1405,12 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="河北联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/河北联通.png",河北联通
+rtp://239.3.1.148:8072
+#EXTINF:-1 group-title="其他" tvg-id="江西联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/江西联通.png",江西联通
+rtp://239.3.1.123:8164
+#EXTINF:-1 group-title="其他" tvg-id="江苏联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/江苏联通.png",江苏联通
+rtp://239.3.1.135:8028
 #EXTINF:-1 group-title="其他" tvg-id="每日影院" tvg-logo="https://epg.112114.xyz/logo/每日影院.png",CBN每日影院
 https://live.goodiptv.club/api/sxg.php?id=mryy_4000
 #EXTINF:-1 group-title="其他" tvg-id="武术世界" tvg-logo="https://epg.112114.xyz/logo/武术世界.png",武术世界
@@ -1401,26 +1431,54 @@ https://live.goodiptv.club/api/sxg.php?id=ycxsjH265_4000
 http://[2409:8087:74d9:21::6]/270000001111/1110000330/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="摄影" tvg-logo="https://epg.112114.xyz/logo/摄影.png",摄影频道
 https://live.goodiptv.club/api/sxg.php?id=sy_4000
+#EXTINF:-1 group-title="其他" tvg-id="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png",快乐垂钓
+rtp://239.3.1.164:8001
 #EXTINF:-1 group-title="其他" tvg-id="快乐垂钓" tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png",快乐垂钓 8M
 https://live.goodiptv.club/api/bestv.php?id=klcd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="快乐垂钓" tvg-logo="https://epg.112114.xyz/logo/快乐垂钓.png",快乐垂钓
 https://live.goodiptv.club/api/sxg.php?id=fyzqklcdHDH265_4000
+#EXTINF:-1 group-title="其他" tvg-id="广东联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/广东联通.png",广东联通
+rtp://239.3.1.142:8048
 #EXTINF:-1 group-title="其他" tvg-id="幸福娱乐" tvg-logo="https://epg.112114.xyz/logo/幸福娱乐.png",CBN幸福娱乐
 https://live.goodiptv.club/api/sxg.php?id=xfyl_4000
+#EXTINF:-1 group-title="其他" tvg-id="山东联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/山东联通.png",山东联通
+rtp://239.3.1.209:8052
 #EXTINF:-1 group-title="其他" tvg-id="家庭理财" tvg-logo="https://epg.112114.xyz/logo/家庭理财.png",家庭理财
 https://live.goodiptv.club/api/sxg.php?id=jtlc_4000
+#EXTINF:-1 group-title="其他" tvg-id="安徽联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/安徽联通.png",安徽联通
+rtp://239.3.1.211:8064
 #EXTINF:-1 group-title="其他" tvg-id="天元围棋" tvg-logo="https://epg.112114.xyz/logo/天元围棋.png",天元围棋
 https://live.goodiptv.club/api/sxg.php?id=tywq_2000
 #EXTINF:-1 group-title="其他" tvg-id="咪咕足球" tvg-logo="https://epg.112114.xyz/logo/咪咕足球.png",足球高清 8M
 https://live.goodiptv.club/api/bestv.php?id=zqpd8m/8000000
+#EXTINF:-1 group-title="其他" tvg-id="吉林联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/吉林联通.png",吉林联通
+rtp://239.3.1.240:8172
 #EXTINF:-1 group-title="其他" tvg-id="发现之旅" tvg-logo="https://epg.112114.xyz/logo/发现之旅.png",中央新影-发现之旅
 https://live.goodiptv.club/api/sxg.php?id=fxzl_2000
+#EXTINF:-1 group-title="其他" tvg-id="卡酷少儿" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png",卡酷少儿
+rtp://239.3.1.189:8000
 #EXTINF:-1 group-title="其他" tvg-id="卡酷少儿" tvg-logo="https://epg.112114.xyz/logo/卡酷少儿.png",卡酷少儿 8M
 https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="卡酷少儿" tvg-logo="https://epg.112114.xyz/logo/卡酷少儿.png",卡酷少儿
 https://live.goodiptv.club/api/sxg.php?id=kkkt_4000
 #EXTINF:-1 group-title="其他" tvg-id="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png",卡酷少儿
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
+#EXTINF:-1 group-title="其他" tvg-id="北京财经" tvg-logo="https://live.fanmingming.com/tv/北京财经.png",北京财经
+rtp://239.3.1.115:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京联通" tvg-logo="https://live.fanmingming.com/tv/北京联通.png",北京联通
+rtp://239.3.1.241:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京生活" tvg-logo="https://live.fanmingming.com/tv/北京生活.png",北京生活
+rtp://239.3.1.117:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京新闻" tvg-logo="https://live.fanmingming.com/tv/北京新闻.png",北京新闻
+rtp://239.3.1.159:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京文艺" tvg-logo="https://live.fanmingming.com/tv/北京文艺.png",北京文艺
+rtp://239.3.1.242:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京影视" tvg-logo="https://live.fanmingming.com/tv/北京影视.png",北京影视
+rtp://239.3.1.158:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京国际频道" tvg-logo="https://epg.112114.xyz/logo/北京国际.png",北京国际
+rtp://239.3.1.235:8000
+#EXTINF:-1 group-title="其他" tvg-id="北京体育休闲" tvg-logo="https://live.fanmingming.com/tv/北京体育休闲.png",体育休闲
+rtp://239.3.1.243:8000
 #EXTINF:-1 group-title="其他" tvg-id="动漫秀场" tvg-logo="https://epg.112114.xyz/logo/动漫秀场.png",动漫秀场 8M
 https://live.goodiptv.club/api/bestv.php?id=dmxc8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="动漫秀场" tvg-logo="https://epg.112114.xyz/logo/动漫秀场.png",动漫秀场
@@ -1439,14 +1497,24 @@ https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 https://live.goodiptv.club/api/sxg.php?id=zxs_4000
 #EXTINF:-1 group-title="其他" tvg-id="中国教育4台" tvg-logo="https://epg.112114.xyz/logo/中国教育4台.png",中国教育-4 8M
 https://live.goodiptv.club/api/bestv.php?id=zgjy4hd8m/8000000
+#EXTINF:-1 group-title="其他" tvg-id="中国教育1台" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/中国教育.png",中国教育
+rtp://239.3.1.57:8152
 #EXTINF:-1 group-title="其他" tvg-id="中国教育1台" tvg-logo="https://epg.112114.xyz/logo/中国教育1台.png",中国教育-1 8M
 https://live.goodiptv.club/api/bestv.php?id=zgjy1t8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="中国天气" tvg-logo="https://epg.112114.xyz/logo/中国天气.png",中国天气
 https://live.goodiptv.club/api/sxg.php?id=zgqx_4000
+#EXTINF:-1 group-title="其他" tvg-id="东莞生活" tvg-logo="https://live.fanmingming.com/tv/东莞生活.png",东莞生活
+https://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="东莞新闻" tvg-logo="https://live.fanmingming.com/tv/东莞新闻.png",东莞新闻
+https://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="东方财经" tvg-logo="https://live.fanmingming.com/tv/东方财经.png",东方财经
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
+#EXTINF:-1 group-title="其他" tvg-id="东方联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方联通.png",东方联通
+rtp://239.3.1.136:8032
 #EXTINF:-1 group-title="其他" tvg-id="东方影视" tvg-logo="https://live.fanmingming.com/tv/东方影视.png",东方影视
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
+#EXTINF:-1 group-title="其他" tvg-id="东南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东南联通.png",东南联通
+rtp://239.3.1.156:8148
 #EXTINF:-1 group-title="其他" tvg-id="上视新闻" tvg-logo="https://epg.112114.xyz/logo/上视新闻.png",上视新闻 8M
 https://live.goodiptv.club/api/bestv.php?id=xwzhhd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="上视外语" tvg-logo="https://epg.112114.xyz/logo/上视外语.png",上视外语 8M
@@ -1457,6 +1525,8 @@ https://live.goodiptv.club/api/bestv.php?id=dfyshd8m/8000000
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="上海纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png",纪实人文
+rtp://239.3.1.212:8060
 #EXTINF:-1 group-title="其他" tvg-id="上海新闻综合" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png",上海新综
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png",上海外语
@@ -1485,9 +1555,55 @@ https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
 https://live.goodiptv.club/api/sxg.php?id=jsqcH265_4000
 #EXTINF:-1 group-title="其他" tvg-id="CHC家庭影院" tvg-logo="https://epg.112114.xyz/logo/CHC家庭影院.png",CHC家庭影院
 https://live.goodiptv.club/api/sxg.php?id=jbtygqCHCjtyyH265_4000
+#EXTINF:-1 group-title="其他" tvg-id="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/环球纪录.png",CGTN纪录
+rtp://239.3.1.216:4220
+#EXTINF:-1 group-title="其他" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/中国环球.png",CGTN新闻
+rtp://239.3.1.215:4220
 #EXTINF:-1 group-title="其他" tvg-id="CETV4空中课堂频道" tvg-logo="https://live.fanmingming.com/tv/CETV4.png",CETV4空中课堂频道
 http://hwylivehd.centv.cn/cetv4/zjpd.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="CETV2中国教育电视台二套" tvg-logo="https://live.fanmingming.com/tv/CETV2.png",CETV2中国教育电视台二套
 http://hwylivehd.centv.cn/cetv2/2020tsytk.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="CETV1中国教育电视台一套" tvg-logo="https://live.fanmingming.com/tv/CETV1.png",CETV1中国教育电视台一套
 http://hwylivehd.centv.cn/cetv1/ypd.m3u8
+#EXTINF:-1 group-title="其他" tvg-id="CCTV9" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV9.png",CCTV-9
+rtp://239.3.1.62:8112
+#EXTINF:-1 group-title="其他" tvg-id="CCTV8" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV8.png",CCTV-8
+rtp://239.3.1.175:8001
+#EXTINF:-1 group-title="其他" tvg-id="CCTV7" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV7.png",CCTV-7
+rtp://239.3.1.61:8104
+#EXTINF:-1 group-title="其他" tvg-id="CCTV6" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV6.png",CCTV-6
+rtp://239.3.1.174:8001
+#EXTINF:-1 group-title="其他" tvg-id="CCTV5+" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV5+.png",体育赛事
+rtp://239.3.1.130:8004
+#EXTINF:-1 group-title="其他" tvg-id="CCTV5" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV5.png",CCTV-5
+rtp://239.3.1.173:8001
+#EXTINF:-1 group-title="其他" tvg-id="CCTV4K超清" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4k.png",CCTV-4K
+rtp://239.3.1.245:2000
+#EXTINF:-1 group-title="其他" tvg-id="CCTV4EURO" tvg-logo="https://epg.112114.xyz/logo/CCTV4欧洲.png",中文欧洲
+rtp://239.3.1.213:4220
+#EXTINF:-1 group-title="其他" tvg-id="CCTV4AME" tvg-logo="https://epg.112114.xyz/logo/CCTV4美洲.png",中文美洲
+rtp://239.3.1.214:4220
+#EXTINF:-1 group-title="其他" tvg-id="CCTV4" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV4.png",CCTV-4
+rtp://239.3.1.105:8092
+#EXTINF:-1 group-title="其他" tvg-id="CCTV3" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV3.png",CCTV-3
+rtp://239.3.1.172:8001
+#EXTINF:-1 group-title="其他" tvg-id="CCTV2" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV2.png",CCTV-2
+rtp://239.3.1.60:8084
+#EXTINF:-1 group-title="其他" tvg-id="CCTV17" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV17.png",CCTV-17
+rtp://239.3.1.151:8144
+#EXTINF:-1 group-title="其他" tvg-id="CCTV16" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV16.png",CCTV-16
+rtp://239.3.1.184:8001
+#EXTINF:-1 group-title="其他" tvg-id="CCTV15" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV15.png",CCTV-15
+rtp://239.3.1.153:8136
+#EXTINF:-1 group-title="其他" tvg-id="CCTV14" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV14.png",CCTV-14
+rtp://239.3.1.65:8132
+#EXTINF:-1 group-title="其他" tvg-id="CCTV13" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV13.png",CCTV-13
+rtp://239.3.1.124:8128
+#EXTINF:-1 group-title="其他" tvg-id="CCTV12" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV12.png",CCTV-12
+rtp://239.3.1.64:8124
+#EXTINF:-1 group-title="其他" tvg-id="CCTV11" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV11.png",CCTV-11
+rtp://239.3.1.152:8120
+#EXTINF:-1 group-title="其他" tvg-id="CCTV10" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV10.png",CCTV-10
+rtp://239.3.1.63:8116
+#EXTINF:-1 group-title="其他" tvg-id="CCTV1" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/CCTV1.png",CCTV-1
+rtp://239.3.1.129:8008
