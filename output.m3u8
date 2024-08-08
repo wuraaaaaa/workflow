@@ -113,8 +113,6 @@ https://live.goodiptv.club/api/sxg.php?id=CCTV-5H265_4000
 http://123.189.36.4:9901/tsfile/live/1158_1.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K超高清" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png",CCTV-4K超高清
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
-#EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png",CCTV-4K
-http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png",CCTV-4K
 https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png",CCTV-4K 超高清
@@ -1313,16 +1311,6 @@ https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 https://live.goodiptv.club/api/bestv.php?id=shss8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="生活时尚" tvg-logo="https://epg.112114.xyz/logo/生活时尚.png",生活时尚
 https://live.goodiptv.club/api/sxg.php?id=shssH265_4000
-#EXTINF:-1 group-title="其他" tvg-id="甘肃都市" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gansu/Gansu1.png",甘肃都市
-http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000324/index.m3u8?
-#EXTINF:-1 group-title="其他" tvg-id="甘肃经济" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gansu/Gansu2.png",甘肃经济
-http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000326/index.m3u8?
-#EXTINF:-1 group-title="其他" tvg-id="甘肃文化影视" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gansu/Gansu3.png",甘肃文化
-http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000323/index.m3u8?
-#EXTINF:-1 group-title="其他" tvg-id="甘肃少儿" tvg-logo="https://gitee.com/Black_crow/epglogo/raw/master/gansu/Gansu4.png",甘肃少儿
-http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000327/index.m3u8?
-#EXTINF:-1 group-title="其他" tvg-id="甘肃公共应急" tvg-logo="https://upload.112114.xyz/logo/%E7%94%98%E8%82%83%E5%85%AC%E5%85%B1%E5%BA%94%E6%80%A5.png",甘肃公共
-http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000325/index.m3u8?
 #EXTINF:-1 group-title="其他" tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png",湖南都市
 http://222.241.154.37:9901/tsfile/live/23021_1.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="湖南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/湖南联通.png",湖南卫视
@@ -1385,8 +1373,6 @@ https://live.goodiptv.club/api/sxg.php?id=ly_4000
 https://live.goodiptv.club/api/bestv.php?id=xsjhd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="新视觉" tvg-logo="https://epg.112114.xyz/logo/新视觉.png",新视觉
 https://live.goodiptv.club/api/sxg.php?id=ycxsjH265_4000
-#EXTINF:-1 group-title="其他" tvg-id="文旅频道" tvg-logo="https://live.fanmingming.com/tv/文旅频道.png",文旅频道
-http://[2409:8087:74d9:21::6]/270000001111/1110000330/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="摄影" tvg-logo="https://epg.112114.xyz/logo/摄影.png",摄影频道
 https://live.goodiptv.club/api/sxg.php?id=sy_4000
 #EXTINF:-1 group-title="其他" tvg-id="快乐垂钓" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/快乐垂钓.png",快乐垂钓
