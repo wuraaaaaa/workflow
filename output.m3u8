@@ -1,14 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="数字高清" tvg-id="湖南金鹰卡通" tvg-logo="https://epg.112114.xyz/logo/湖南金鹰卡通.png",金鹰卡通
 https://live.goodiptv.club/api/sxg.php?id=jykt_2000
-#EXTINF:-1 group-title="数字高清" tvg-id="求索纪录" tvg-logo="https://cdn.jsdelivr.net/gh/youngking525/TVlogo@main/img/Qiusuo1.png",求索纪录
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000010&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 group-title="数字高清" tvg-id="求索科学" tvg-logo="https://cdn.jsdelivr.net/gh/youngking525/TVlogo@main/img/Qiusuo2.png",求索科学
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000011/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000011&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 group-title="数字高清" tvg-id="求索生活" tvg-logo="https://cdn.jsdelivr.net/gh/youngking525/TVlogo@main/img/Qiusuo4.png",求索生活
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000008&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 group-title="数字高清" tvg-id="求索动物" tvg-logo="https://cdn.jsdelivr.net/gh/youngking525/TVlogo@main/img/Qiusuo3.png",求索动物
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000009/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000004000000009&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 group-title="数字高清" tvg-id="峨嵋电影" tvg-logo="https://epg.112114.xyz/logo/峨嵋电影.png",四川峨嵋电影
 https://live.goodiptv.club/api/sxg.php?id=emdygqH265_4000
 #EXTINF:-1 group-title="数字高清" tvg-id="嘉佳卡通" tvg-logo="https://epg.112114.xyz/logo/嘉佳卡通.png",嘉佳卡通
@@ -17,8 +9,6 @@ https://live.goodiptv.club/api/sxg.php?id=jjkt_2000
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
 #EXTINF:-1 group-title="数字高清" tvg-id="优漫卡通" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/优漫卡通",优漫卡通
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
-#EXTINF:-1 group-title="数字高清" tvg-id="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png",乐游频道
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000092/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000092&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="数字高清" tvg-id="中国天气" tvg-logo="https://live.fanmingming.com/tv/中国天气.png",中国天气
 http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
 #EXTINF:-1 group-title="数字高清" tvg-id="newtv超级电视剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级电视剧.png",超级视剧
@@ -1323,12 +1313,12 @@ rtp://239.3.1.165:8001
 https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="老故事" tvg-logo="https://epg.112114.xyz/logo/老故事.png",中央新影-老故事
 https://live.goodiptv.club/api/sxg.php?id=lgs_2000
+#EXTINF:-1 group-title="其他" tvg-id="美亚C+" tvg-logo="https://live.fanmingming.com/tv/美亚C+.png",美亚C+
+http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png",纪实科教
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="红色谍战剧场" tvg-logo="https://epg.112114.xyz/logo/红色谍战剧场.png",谍战剧场 8M
 https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
-#EXTINF:-1 group-title="其他" tvg-id="第一财经" tvg-logo="https://live.fanmingming.com/tv/上海第一财经.png",第一财经
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="电竞天堂" tvg-logo="https://epg.112114.xyz/logo/电竞天堂.png",电竞天堂 8M
 https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="生活时尚" tvg-logo="https://epg.112114.xyz/logo/生活时尚.png",生活时尚 8M
@@ -1473,12 +1463,8 @@ https://live.goodiptv.club/api/sxg.php?id=zgqx_4000
 https://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="东莞新闻" tvg-logo="https://live.fanmingming.com/tv/东莞新闻.png",东莞新闻
 https://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="东方财经" tvg-logo="https://live.fanmingming.com/tv/东方财经.png",东方财经
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="东方联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东方联通.png",东方卫视
 rtp://239.3.1.136:8032
-#EXTINF:-1 group-title="其他" tvg-id="东方影视" tvg-logo="https://live.fanmingming.com/tv/东方影视.png",东方影视
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="东南联通" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/东南联通.png",东南卫视
 rtp://239.3.1.156:8148
 #EXTINF:-1 group-title="其他" tvg-id="上视新闻" tvg-logo="https://epg.112114.xyz/logo/上视新闻.png",上视新闻 8M
@@ -1487,18 +1473,10 @@ https://live.goodiptv.club/api/bestv.php?id=xwzhhd8m/8000000
 https://live.goodiptv.club/api/bestv.php?id=icshd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="上视东方影视" tvg-logo="https://epg.112114.xyz/logo/上视东方影视.png",东方影视 8M
 https://live.goodiptv.club/api/bestv.php?id=dfyshd8m/8000000
-#EXTINF:-1 group-title="其他" tvg-id="上海都市" tvg-logo="https://live.fanmingming.com/tv/上海都市.png",上海都市
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
 #EXTINF:-1 group-title="其他" tvg-id="上海纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png",纪实人文
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="上海纪实" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/纪实人文.png",纪实人文
 rtp://239.3.1.212:8060
-#EXTINF:-1 group-title="其他" tvg-id="上海新闻综合" tvg-logo="https://live.fanmingming.com/tv/上视新闻.png",上海新综
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 group-title="其他" tvg-id="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png",上海外语
-http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000001/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000001&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
-#EXTINF:-1 group-title="其他" tvg-id="上海五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png",五星体育
-http://[2409:8087:5e08:24::15]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19594820240419041339000523
 #EXTINF:-1 group-title="其他" tvg-id="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png",法治天地 8M
 https://live.goodiptv.club/api/bestv.php?id=fztd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="SITV金色学堂" tvg-logo="https://epg.112114.xyz/logo/SITV金色学堂.png",金色学堂 8M
