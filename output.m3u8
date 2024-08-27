@@ -961,8 +961,6 @@ https://tv.vtibet.cn/live/vuXz3cg3TmRUYg.m3u8?secret=16a3373dc8cc55addbf2543145e
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225638/index.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="西藏卫视" tvg-logo="https://epg.112114.xyz/logo/西藏卫视.png",西藏卫视
 https://live.goodiptv.club/api/sxg.php?id=xzwsH264_2000
-#EXTINF:-1 group-title="卫视台" tvg-id="第一卫视" tvg-logo="https://live.fanmingming.com/tv/第一卫视.png",第一卫视
-http://play2.one-tv.com/live/onetv.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png",甘肃卫视
 http://222.134.245.16:9901/tsfile/live/0141_1.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="甘肃卫视" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/甘肃卫视",甘肃卫视
@@ -1225,6 +1223,8 @@ https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
 https://live.goodiptv.club/api/sxg.php?id=lgs_2000
 #EXTINF:-1 group-title="其他" tvg-id="红色谍战剧场" tvg-logo="https://epg.112114.xyz/logo/红色谍战剧场.png",谍战剧场 8M
 https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
+#EXTINF:-1 group-title="其他" tvg-id="第一卫视" tvg-logo="https://live.fanmingming.com/tv/第一卫视.png",第一卫视
+http://play2.one-tv.com/live/onetv.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="电竞天堂" tvg-logo="https://epg.112114.xyz/logo/电竞天堂.png",电竞天堂 8M
 https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="生活时尚" tvg-logo="https://live.fanmingming.com/tv/生活时尚.png",生活时尚
