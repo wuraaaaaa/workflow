@@ -23,10 +23,6 @@ https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/sdr4kvideo/index.m3u8
 https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/hlg4kvideo/index.m3u8
 #EXTINF:-1 group-title="央视台" tvg-id="中国教育1台" tvg-logo="https://live.fanmingming.com/tv/中国教育1台.png",中国教育
 rtp://239.3.1.57:8152
-#EXTINF:-1 group-title="央视台" tvg-id="CGTN西班牙语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png",CGTN西语
-rtp://239.3.1.217:4220
-#EXTINF:-1 group-title="央视台" tvg-id="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png",CGTN法语
-rtp://239.3.1.218:4220
 #EXTINF:-1 group-title="央视台" tvg-id="CGTNDocumentary" tvg-logo="https://live.fanmingming.com/tv/CGTN纪录.png",CGTN纪录
 rtp://239.3.1.216:4220
 #EXTINF:-1 group-title="央视台" tvg-id="CGTN" tvg-logo="https://raw.githubusercontent.com/drangjchen/IPTV/main/Logo/中国环球.png",CGTN新闻
@@ -1297,8 +1293,6 @@ https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
 https://live.goodiptv.club/api/sxg.php?id=lgs_2000
 #EXTINF:-1 group-title="其他" tvg-id="红色谍战剧场" tvg-logo="https://epg.112114.xyz/logo/红色谍战剧场.png",谍战剧场 8M
 https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
-#EXTINF:-1 group-title="其他" tvg-id="第一卫视" tvg-logo="https://epg.112114.xyz/logo/第一卫视.png",第一卫视
-http://play2.one-tv.com/live/onetv.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="电竞天堂" tvg-logo="https://epg.112114.xyz/logo/电竞天堂.png",电竞天堂 8M
 https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="生活时尚" tvg-logo="https://live.fanmingming.com/tv/生活时尚.png",生活时尚
@@ -1311,20 +1305,6 @@ https://live.goodiptv.club/api/sxg.php?id=shssH265_4000
 rtp://239.3.1.205:8001
 #EXTINF:-1 group-title="其他" tvg-id="游戏风云" tvg-logo="https://epg.112114.xyz/logo/游戏风云.png",游戏风云 8M
 https://live.goodiptv.club/api/bestv.php?id=yxfy8m/8000000
-#EXTINF:-1 group-title="其他" tvg-id="浙江钱江都市" tvg-logo="https://live.fanmingming.com/tv/钱江都市.png",浙江钱江
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江经视" tvg-logo="https://live.fanmingming.com/tv/浙江经济生活.png",浙江经济
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江民生休闲" tvg-logo="https://live.fanmingming.com/tv/浙江民生休闲.png",浙江民生
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江教科影视" tvg-logo="https://live.fanmingming.com/tv/浙江教科影视.png",浙江教科
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江少儿" tvg-logo="https://live.fanmingming.com/tv/浙江少儿.png",浙江少儿
-https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江国际" tvg-logo="https://live.fanmingming.com/tv/浙江国际.png",浙江国际
-https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 group-title="其他" tvg-id="浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/浙江新闻.png",浙江新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="法治天地" tvg-logo="https://live.fanmingming.com/tv/法治天地.png",法治天地
 rtp://239.3.1.204:8001
 #EXTINF:-1 group-title="其他" tvg-id="每日影院" tvg-logo="https://epg.112114.xyz/logo/每日影院.png",CBN每日影院
@@ -1399,8 +1379,6 @@ https://live.goodiptv.club/api/bestv.php?id=qjshd8m/8000000
 https://live.goodiptv.club/api/bestv.php?id=wxtyhd8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png",乐游频道
 rtp://239.3.1.207:8001
-#EXTINF:-1 group-title="其他" tvg-id="之江纪录" tvg-logo="https://live.fanmingming.com/tv/之江记录.png",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 group-title="其他" tvg-id="中学生" tvg-logo="https://epg.112114.xyz/logo/中学生.png",中央新影-中学生
 https://live.goodiptv.club/api/sxg.php?id=zxs_4000
 #EXTINF:-1 group-title="其他" tvg-id="中国教育4台" tvg-logo="https://epg.112114.xyz/logo/中国教育4台.png",中国教育-4 8M
