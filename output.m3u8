@@ -77,7 +77,7 @@ https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
 https://live.goodiptv.club/api/sxg.php?id=CCTV-5H265_4000
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4中文国际" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png",CCTV-4中文国际
 http://121.24.98.226:8090/hls/12/index.m3u8
-#EXTINF:-1 group-title="央视台" tvg-id="CCTV4K超清" tvg-logo="https://live.fanmingming.com/tv/CCTV4k.png",CCTV-4K
+#EXTINF:-1 group-title="央视台" tvg-id="CCTV4K超清" tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png",CCTV-4K
 rtp://239.3.1.245:2000
 #EXTINF:-1 group-title="央视台" tvg-id="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png",CCTV-4K
 https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
