@@ -1233,6 +1233,8 @@ http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="兵团卫视" tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png",兵团卫视
 https://live.goodiptv.club/api/sxg.php?id=btws_4000
+#EXTINF:-1 group-title="卫视台" tvg-id="亚洲卫视" tvg-logo="https://epg.112114.xyz/logo/亚洲卫视.png",亚洲卫视
+https://p2hs.vzan.com/slowlive/821481626725612417/live.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png",云南卫视
 http://117.161.12.124/live/program/live/ynwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 group-title="卫视台" tvg-id="云南卫视" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/云南卫视",云南卫视
@@ -1347,8 +1349,6 @@ rtp://239.3.1.189:8000
 https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
 #EXTINF:-1 group-title="其他" tvg-id="卡酷少儿" tvg-logo="https://epg.112114.xyz/logo/卡酷少儿.png",卡酷少儿
 https://live.goodiptv.club/api/sxg.php?id=kkkt_4000
-#EXTINF:-1 group-title="其他" tvg-id="南国都市" tvg-logo="https://epg.112114.xyz/logo/南国都市.png",南国都市
-https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
 #EXTINF:-1 group-title="其他" tvg-id="北京财经" tvg-logo="https://live.fanmingming.com/tv/北京财经.png",北京财经
 rtp://239.3.1.115:8000
 #EXTINF:-1 group-title="其他" tvg-id="北京生活" tvg-logo="https://live.fanmingming.com/tv/北京生活.png",北京生活
