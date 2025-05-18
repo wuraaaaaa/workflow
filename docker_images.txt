@@ -9,3 +9,4 @@ nyanmisaka/jellyfin:latest
 cym1102/nginxwebui:latest
 portainer/portainer-ce:latest
 portainer/agent:latest
+bestzwei/libretv:latest
